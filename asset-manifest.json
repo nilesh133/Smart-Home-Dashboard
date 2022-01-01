@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Smart-Home-Dashboard/static/css/main.a4d83b66.chunk.css",
+    "main.js": "/Smart-Home-Dashboard/static/js/main.dd8c2176.chunk.js",
+    "main.js.map": "/Smart-Home-Dashboard/static/js/main.dd8c2176.chunk.js.map",
+    "runtime-main.js": "/Smart-Home-Dashboard/static/js/runtime-main.4daa9cb3.js",
+    "runtime-main.js.map": "/Smart-Home-Dashboard/static/js/runtime-main.4daa9cb3.js.map",
+    "static/js/2.d5eca44f.chunk.js": "/Smart-Home-Dashboard/static/js/2.d5eca44f.chunk.js",
+    "static/js/2.d5eca44f.chunk.js.map": "/Smart-Home-Dashboard/static/js/2.d5eca44f.chunk.js.map",
+    "index.html": "/Smart-Home-Dashboard/index.html",
+    "static/css/main.a4d83b66.chunk.css.map": "/Smart-Home-Dashboard/static/css/main.a4d83b66.chunk.css.map",
+    "static/js/2.d5eca44f.chunk.js.LICENSE.txt": "/Smart-Home-Dashboard/static/js/2.d5eca44f.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Smart-Home-Dashboard/static/media/weather-2.7e998fdc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4daa9cb3.js",
+    "static/js/2.d5eca44f.chunk.js",
+    "static/css/main.a4d83b66.chunk.css",
+    "static/js/main.dd8c2176.chunk.js"
+  ]
+}
