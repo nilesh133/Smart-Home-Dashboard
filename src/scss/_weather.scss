@@ -1,0 +1,106 @@
+.weather{
+    width: 330px;
+    height: 450px;
+    background-color: #0a0a0a;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    position: relative;
+    &_date{
+        color: white;
+        h4{
+            position: absolute;
+            top: -5%;
+            left: 35%;
+            background-color: #000;
+            padding: 0.8rem;
+            font-size: 0.8rem;
+            color: #c0c0c0;
+            border-bottom-left-radius: 1.7rem;
+            border-bottom-right-radius: 1.7rem;
+        }
+        span{
+            position: absolute;
+            top: 2%;
+            left: 92%;
+        }
+    }
+
+    &_today{
+        @extend %flex-space-between;
+        &_image{
+            background-image: url(../images/weather-2.png);
+            background-position: center;
+            background-size: cover;
+            height: 150px;
+            width: 150px;
+        }
+        &_details{
+            h3{
+                margin: 0;
+                color: white;
+                font-size: 2.7rem;
+                letter-spacing: 1px;
+                span{
+                    font-size: 1.2rem;
+                }
+            }
+            &_line{
+                margin: 0.5rem 0.2rem;
+                height: 1px;
+                width: 70%;
+                background-color: #c0c0c0;
+            }
+            &_text{
+                color: white;
+            }
+        }
+    }
+
+    &_upcoming{
+        margin-top: 0.5rem;
+        background-color: #0a0a0a;
+        box-shadow:  6px 6px 3px #070707,
+             -6px -6px 3px #0d0d0d;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        &_single{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0.6rem 0.5rem;
+            border-bottom: 1px solid #989898;
+            padding: 0.6rem;
+            &_left{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span{
+                    color: white;
+                    font-size: 1.5rem;
+                    margin-right: 0.4rem;
+                }
+                h4{
+                    margin: 0;
+                    color: white;
+                }
+                h5{
+                    margin: 0;
+                    color: #c0c0c0;
+                }
+            }
+            &_right{
+                letter-spacing: 0.7px;
+                h4{
+                    color: white;
+                    font-size: 1.2rem;
+                    margin: 0.5rem;
+                    span{
+                        color: #c0c0c0;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}

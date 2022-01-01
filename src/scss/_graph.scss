@@ -1,0 +1,137 @@
+.graph{
+    background-color: #0a0a0a;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 325px;
+    &_first_line{
+        @extend %flex-space-between;
+        h4{
+            color: white;
+            font-size: 0.9rem;
+            margin: 0;
+            span{
+                color: orange;
+            }
+        }
+        span{
+            color: white;
+            margin-right: 1rem;
+        }
+    }
+
+    &_second_line{
+        margin-top: 1rem;
+        span{
+            padding: 0.3rem;
+            background-color: #030303;
+            border-radius: 0.4rem;
+            color: white;
+            font-size: 0.8rem;
+            margin-right: 0.8rem;
+        }
+        
+    }
+    &_last{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: 1.5rem;
+        &_individual{
+            position: relative;
+            padding: 0.5rem;
+            &_icons{
+                margin: 0;
+                border-radius: 50%;
+                position: absolute;
+                top: 40%;
+            }
+            &_details{
+                h4{
+                    color: white;
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    letter-spacing: 0.5px;
+                    margin: 0.6rem 0rem;
+                    margin-left: 2.6rem;
+                    span{
+                        color: #c0c0c0;
+                    }
+                }
+                &_outer_box{
+                    position: relative;
+                    width: 60%;
+                    height: 0.3rem;
+                    background-color: white;
+                    border-radius: 0.6rem;
+                    margin-left: 2.6rem;
+                }
+                &_inner_box{
+                    position: absolute;
+                    height: 0.3rem;
+                    border-radius: 0.6rem;
+                    
+                }
+                &_percentage{
+                    position: absolute;
+                    left: 105%;
+                    font-size: 0.7rem;
+                    color: white;
+                    bottom: -60%;
+                }
+            }
+        }
+    }
+}
+
+.graph_last_air .graph_last_individual_icons{
+    background-color: #00b7eb;
+    padding: 0.4rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #91e5fc;
+}
+
+.graph_last_air .graph_last_individual_details_inner_box{
+    width: 70%;
+    background-color: #00b7eb;
+}
+
+.graph_last_sound .graph_last_individual_icons{
+    background-color: #ff0090;
+    padding: 0.4rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #ff0090;
+}
+
+.graph_last_sound .graph_last_individual_details_inner_box{
+    width: 58%;
+    background-color: #ff0090;
+}
+
+.graph_last_climate .graph_last_individual_icons{
+    background-color: #ffbf00;
+    padding: 0.4rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #ffbf00;
+}
+
+.graph_last_climate .graph_last_individual_details_inner_box{
+    width: 30%;
+    background-color: #ffbf00;
+}
+
+.graph_last_light .graph_last_individual_icons{
+    background-color: #7fff00;
+    padding: 0.4rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #7fff00;
+}
+
+.graph_last_light .graph_last_individual_details_inner_box{
+    width: 15%;
+    background-color: #7fff00;
+}

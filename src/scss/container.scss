@@ -1,0 +1,12 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    width: 81%;
+    border-radius: 17px;
+    background: #0a0a0a;
+    padding: 1.5rem;
+    // box-shadow: inset 8px 8px 0px #121212,
+    // inset -8px -8px 0px #262626;
+    font-family: 'Source Sans Pro', sans-serif;
+}

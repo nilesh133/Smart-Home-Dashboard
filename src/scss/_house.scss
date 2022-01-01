@@ -1,0 +1,59 @@
+.house_container{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background: url("../images/house.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    &_labels{
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 87%;
+        position: absolute;
+        top: 73%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2rem;
+        border-radius: 3rem 0 1rem 3rem;
+        padding: 0.6rem;
+        &_left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h3{
+                margin: 0;
+                color: white;
+                font-size: 0.9rem;
+                font-weight: 500;
+                span{
+                    color: #3fff00;
+                }
+            }
+            p{
+                margin: 0;
+                font-size: 0.7rem;
+                color: #a9a9a9;
+            }
+            &_icon{
+                font-size: 2rem;
+                padding: 0.2rem 0.5rem;
+                background-color: orangered;
+                color: white;
+                border-radius: 50%;
+                margin-right: 0.7rem;
+                
+            }
+
+        }
+
+        &_right span{
+            font-size: 1.5rem;
+            background-color: #030303;
+            color: white;
+            border-radius: 50%;
+            margin-left: 0.7rem;
+            margin-right: 0.4rem;
+        }
+    }
+}

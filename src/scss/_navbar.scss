@@ -1,0 +1,24 @@
+.navbar{
+    @extend %flex-space-around;
+    width: 5%;
+    padding: 0.5rem;
+    &__glow__icon{
+        animation: glow 1s ease-in-out infinite alternate;
+        box-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #91e5fc, 0 0 12px #6adcfc, 0 0 15px #34d0fc, 0 0 18px #17c1f0;
+        color: #00b7eb;
+        border-radius: 50%;
+    }
+    span{
+        padding: 0.5rem;
+    }
+    &__bottom{
+        margin-top: 6.5rem;
+        @extend %flex-space-around;
+        align-items: center;
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: #00b7eb;
+    }
+}
+
+  
